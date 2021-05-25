@@ -1,0 +1,61 @@
+body {
+    background: #282828;
+    background: linear-gradient(-45deg, #929090, #867f81, #898b8b , #e3e4e4);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+
+
+}
+@-webkit-keyframes Gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+       background-position: 100% 50%;
+    }
+    100%{
+         background-position: 0% 50%; 
+     } 
+}
+.header1 h1 {
+    font-size: 60px;
+    font-family: 'Numans', sans-serif;
+    text-align: center;
+    color: darkblue;
+   
+    
+} 
+.info1 {
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.more_info {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.more_info p {
+    margin-left: 20px;
+}
+ .skills {
+     font-size:30px;
+     font-family: 'Hind', sans-serif;
+ }
+ .pics {
+    float:right ;
+    margin-right: 500px;
+    margin-top: 50px;
+    
+    
+}
+ .skills p{
+     color:purple;
+     font-weight: 600;
+ }
+
+ .back{
+     text-decoration: none;
+     text-shadow: #282828;
+     font-size: 20px;
+     text-align: right; 
+ }
